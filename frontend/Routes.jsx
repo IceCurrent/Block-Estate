@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "pages/Home"
+import Home from "pages"
 import NotFound from "pages/NotFound"
 
 import License from "pages/License"
@@ -30,7 +30,8 @@ import LandingPage from "pages/LandingPage"
 // const PropertyDetails = React.lazy(() => import("pages/PropertyDetails"))
 // const ListingMapView = React.lazy(() => import("pages/ListingMapView"))
 // const Listing = React.lazy(() => import("pages/Listing"))
-// const AboutUs = React.lazy(() => import("pages/AboutUs"))
+// const Selling = React.lazy(() => import("pages"))
+const AboutUs = React.lazy(() => import("pages/AboutUs"))
 // const LandingPage = React.lazy(() => import("pages/LandingPage"))
 
 const ProjectRoutes = () => {
@@ -42,6 +43,7 @@ const ProjectRoutes = () => {
           <Route path="*" element={<NotFound />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/listing" element={<Listing />} />
+          <Route path="/selling" element={<Selling />} />
           <Route path="/listingmapview" element={<ListingMapView />} />
           <Route path="/propertydetails" element={<PropertyDetails />} />
           <Route path="/agentlist" element={<AgentList />} />

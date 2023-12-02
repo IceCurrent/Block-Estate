@@ -8,7 +8,7 @@ import LandingPageFooter from "components/LandingPageFooter"
 import LandingPageHeader from "components/LandingPageHeader"
 import { Link } from "react-router-dom"
 
-const LandingPagePage = () => {
+const SellingPagePage = () => {
   const navigate = useNavigate()
 
   const landingPageCardPropList = [
@@ -743,4 +743,4 @@ const LandingPagePage = () => {
   )
 }
 
-export default LandingPagePage
+export default SellingPagePage
