@@ -3,35 +3,35 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "pages/Home"
 import NotFound from "pages/NotFound"
 
-// import License from "pages/License"
-// import PrivacyPolicy from "pages/PrivacyPolicy"
-// import FAQ from "pages/FAQ"
-// import Error from "pages/Error"
-// import BlogDetails from "pages/BlogDetails"
-// import BlogPage from "pages/BlogPage"
-// import ContactPage from "pages/ContactPage"
-// import AgentProfile from "pages/AgentProfile"
-// import AgentList from "pages/AgentList"
-// import PropertyDetails from "pages/PropertyDetails"
-// import ListingMapView from "pages/ListingMapView"
-// import Listing from "pages/Listing"
-// import AboutUs from "pages/AboutUs"
-// import LandingPage from "pages/LandingPage"
+import License from "pages/License"
+import PrivacyPolicy from "pages/PrivacyPolicy"
+import FAQ from "pages/FAQ"
+import Error from "pages/Error"
+import BlogDetails from "pages/BlogDetails"
+import BlogPage from "pages/BlogPage"
+import ContactPage from "pages/ContactPage"
+import AgentProfile from "pages/AgentProfile"
+import AgentList from "pages/AgentList"
+import PropertyDetails from "pages/PropertyDetails"
+import ListingMapView from "pages/ListingMapView"
+import Listing from "pages/Listing"
+import AboutUs from "pages/AboutUs"
+import LandingPage from "pages/LandingPage"
 
-const License = React.lazy(() => import("pages/License"))
-const PrivacyPolicy = React.lazy(() => import("pages/PrivacyPolicy"))
-const FAQ = React.lazy(() => import("pages/FAQ"))
-const Error = React.lazy(() => import("pages/Error"))
-const BlogDetails = React.lazy(() => import("pages/BlogDetails"))
-const BlogPage = React.lazy(() => import("pages/BlogPage"))
-const ContactPage = React.lazy(() => import("pages/ContactPage"))
-const AgentProfile = React.lazy(() => import("pages/AgentProfile"))
-const AgentList = React.lazy(() => import("pages/AgentList"))
-const PropertyDetails = React.lazy(() => import("pages/PropertyDetails"))
-const ListingMapView = React.lazy(() => import("pages/ListingMapView"))
-const Listing = React.lazy(() => import("pages/Listing"))
-const AboutUs = React.lazy(() => import("pages/AboutUs"))
-const LandingPage = React.lazy(() => import("pages/LandingPage"))
+// const License = React.lazy(() => import("pages/License"))
+// const PrivacyPolicy = React.lazy(() => import("pages/PrivacyPolicy"))
+// const FAQ = React.lazy(() => import("pages/FAQ"))
+// const Error = React.lazy(() => import("pages/Error"))
+// const BlogDetails = React.lazy(() => import("pages/BlogDetails"))
+// const BlogPage = React.lazy(() => import("pages/BlogPage"))
+// const ContactPage = React.lazy(() => import("pages/ContactPage"))
+// const AgentProfile = React.lazy(() => import("pages/AgentProfile"))
+// const AgentList = React.lazy(() => import("pages/AgentList"))
+// const PropertyDetails = React.lazy(() => import("pages/PropertyDetails"))
+// const ListingMapView = React.lazy(() => import("pages/ListingMapView"))
+// const Listing = React.lazy(() => import("pages/Listing"))
+// const AboutUs = React.lazy(() => import("pages/AboutUs"))
+// const LandingPage = React.lazy(() => import("pages/LandingPage"))
 
 const ProjectRoutes = () => {
   return (
