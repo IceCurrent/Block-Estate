@@ -44,7 +44,7 @@ const LandingPageFooter = (props) => {
                     className="text-base text-gray-900 w-auto"
                     size="txtManropeSemiBold16"
                   >
-                    block.estate@mail.com
+                    block.estate@gmail.com
                   </Text>
                 </div>
                 <div className="flex flex-row gap-3 items-start justify-start w-full">

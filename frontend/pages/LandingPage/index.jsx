@@ -8,8 +8,8 @@ import LandingPageFooter from "components/LandingPageFooter"
 import LandingPageHeader from "components/LandingPageHeader"
 import { Link } from "react-router-dom"
 
-const LandingPagePage = () => {
-  const navigate = useNavigate()
+const LandingPage = () => {
+  // const navigate = useNavigate()
 
   const landingPageCardPropList = [
     {},
@@ -52,16 +52,23 @@ const LandingPagePage = () => {
                 <div className="bg-white-A700 flex flex-col items-start justify-start p-6 sm:px-5 rounded-[16px] w-full">
                   <div className="flex flex-col gap-[38px] items-center justify-start w-full">
                     <div className="flex sm:flex-col flex-row gap-4 items-center justify-center w-full">
-                      <Button className="bg-gray-900 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-lg text-white-A700 w-full" component={Link} 
-             to={'/listing'} >
+                      <Button
+                        className="bg-gray-300 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-gray-900 text-lg w-full"
+                        component={Link}
+                        to={"/listing"}
+                      >
                         Buy
                       </Button>
-                      <Button className="bg-gray-300 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-gray-900 text-lg w-full">
+                      <Button
+                        className="bg-gray-300 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-gray-900 text-lg w-full"
+                        component={Link}
+                        to={"/Selling"}
+                      >
                         Sell
                       </Button>
-                      <Button className="bg-gray-300 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-gray-900 text-lg w-full">
+                      {/* <Button className="bg-gray-300 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-gray-900 text-lg w-full">
                         Rent
-                      </Button>
+                      </Button> */}
                     </div>
                     <div className="flex flex-col gap-6 items-start justify-start w-full">
                       <div className="flex flex-col gap-5 items-start justify-start w-full">
@@ -743,4 +750,4 @@ const LandingPagePage = () => {
   )
 }
 
-export default LandingPagePage
+export default LandingPage
