@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Img, Text } from "components";
 
 const LandingPageCard = (props) => {
+  console.log(props)
   return (
     <>
       <div className={props.className}>
@@ -19,7 +20,7 @@ const LandingPageCard = (props) => {
                 className="flex-1 text-base text-gray-900 w-auto"
                 size="txtManropeSemiBold16"
               >
-                {props?.p286162ndaveoaklone}
+                {props.address}
               </Text>
             </div>
             <div className="flex flex-col gap-[21px] items-start justify-start w-full">
@@ -34,7 +35,7 @@ const LandingPageCard = (props) => {
                     className="flex-1 text-base text-gray-700 w-auto"
                     size="txtManropeSemiBold16Gray700"
                   >
-                    {props?.p3bedroom}
+                    {props?.beds}
                   </Text>
                 </div>
                 <div className="flex flex-1 flex-row gap-3 items-center justify-start w-full">
@@ -47,7 +48,7 @@ const LandingPageCard = (props) => {
                     className="text-base text-gray-700 w-auto"
                     size="txtManropeSemiBold16Gray700"
                   >
-                    {props?.bathcounter}
+                    {props?.baths}
                   </Text>
                 </div>
               </div>
@@ -62,7 +63,7 @@ const LandingPageCard = (props) => {
                     className="flex-1 text-base text-gray-700 w-auto"
                     size="txtManropeSemiBold16Gray700"
                   >
-                    {props?.sqftcounter}
+                    {props?.area}
                   </Text>
                 </div>
                 <div className="flex flex-1 flex-row gap-3 items-center justify-start w-full">
